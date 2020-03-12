@@ -88,9 +88,12 @@
 }
 
 .serviceLogo {
-    margin-top: 30px;
+    width: 40%;
+    margin-top: 50px;
     @media (min-width: 700px) {
-        width: 40%;
+        width: 25%;
+    margin-top: 30px;
+
     }
 }
 
@@ -99,4 +102,28 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+}
+
+.vehicleGraphicsBanner {
+background-image: url("https://i.imgur.com/JBKUksR.jpg");
+background-position: 0 25%;
+background-size: cover;
+}
+
+.fleetWorkBanner {
+    background-image: url("https://i.imgur.com/8GFgzY1.jpg");
+background-position: 0 51%;
+background-size: cover;
+}
+
+.vehicleWrapsBanner {
+    background-image: url("https://i.imgur.com/wFBypNn.jpg");
+background-position: 0 95%;
+background-size: cover;
+}
+
+.internalSignageBanner {
+    background-image: url("https://i.imgur.com/Q4ToZRW.jpg");
+background-position: 0 50%;
+background-size: cover;
 }

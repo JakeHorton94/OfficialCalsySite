@@ -50,8 +50,10 @@ const IndexPage = () => (
       <li></li>
       <li></li>
     </ul>
+
+    <hr className="homeHr"></hr>
    
-        <h1 className="secondaryHeading recentWork">Recent Work</h1>
+        <h1 className="secondaryHeading recentWork">RECENT WORK</h1>
           <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe className="instagramFeed" src="https://cdn.lightwidget.com/widgets/c18be15c3766520691d5f90aabc18e2a.html" scrolling="no" allowtransparency="true" ></iframe>
           
      

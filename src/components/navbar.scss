@@ -1,17 +1,17 @@
 @import './generalStyling.scss';
 
 .navDiv {
-  width: 90%;
+  width: 100%;
   display: flex;
   justify-content: center;
   position: fixed;
   z-index: 2;
-  top: 1%;
-  left:5%;
+  top: 0%;
+ 
 }
 
 .mainNav {
-    background-color: $grey-color;
+    background-color: $white-color;
     display: flex;
     flex-direction: column;
     
@@ -34,7 +34,7 @@
 }
 .Navbar {
     padding: 0;
-    background-color: $grey-color;
+    background-color: $white-color;
     height: 60px;
     width: 100%;
 }
@@ -43,10 +43,10 @@
 
 .navbar {
   margin-top: -1px;
-  box-shadow: 0px 3px 4px 0px rgb(75, 75, 75);
+  // box-shadow: 0px 3px 4px 0px #a9abae;
   .bullet {
       font-size: 30px;
-      color: $dark-grey-color;
+      color: $black-color;
       display: none;
       @media (min-width: 992px) {
         display: flex;
@@ -57,7 +57,7 @@
       display: flex;
       justify-content: space-around;
       align-items: center;
-      color: $white-color;
+      color: $black-color;
       
       text-decoration: none;
       width: 100%;
@@ -71,21 +71,21 @@
     }
     
     .about {
-      color: $dark-grey-color;
+      color: $black-color2;
     }
   
     .about:hover {
      color: #2d81bd;
       transition-duration: 0.5s;
       @media (min-width: 992px) {
-        background-color: $grey-color;
+        background-color: $white-color;
 
       }
     }
   
     .services {
      
-      color: $dark-grey-color;
+      color: $black-color2;
   
 
   
@@ -98,7 +98,7 @@
     }
   }
     .contact {
-      color: $dark-grey-color;
+      color: $black-color2;
   
   
     }

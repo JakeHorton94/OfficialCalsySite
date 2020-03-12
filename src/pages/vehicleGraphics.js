@@ -27,7 +27,10 @@ const VehicleGraphicsPage = () => {
 
         return (
             <Layout>
+              <div className="section8 vehicleGraphicsBanner">
               <img className="serviceLogo" src="https://i.imgur.com/4Qarum6.png"></img>
+              </div>
+              
               <div className="section1">
                 <p className="serviceIntro">Vehicle & van graphics are the best way to promote your business and your services while on the move. First impressions are very important and we will ensure that your vehicle or van perfectly represents you and your business.</p>
                 <p><span className="blueDot">•</span><span className="redDot">•</span><span className="yellowDot">•</span></p>

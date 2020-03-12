@@ -5,10 +5,19 @@ $blue-color: #2d81bd;
 $yellow-color: #fedd43;
 // $red-color: #ad234c;
 $red-color: #cc2e8a;
-$black-color: #0d0d0f;
+$black-color: #383838;
+$black-color2: #616161;
 $white-color: #f6f6f6;
-$grey-color: rgb(75, 75, 75);
-$grey-color2: rgba(242, 239, 239, 0.9);
+$white-color2: #dfdfdf;
+
+// $grey-color: rgb(75, 75, 75);
+$grey-color: #636363;
+
+$grey-color3: rgba(242, 239, 239, 0.9);
+$grey-color2: #FBF9F8
+;
+
+
 
 $dark-grey-color: #a9abae;
 
@@ -24,7 +33,7 @@ $common-padding: 2% 6%;
 .heading {
     margin: 0;
     font-size: 40px;
-    color: $white-color;
+    color: $black-color;
     @media (min-width: $tablet-breakpoint) {
         font-size: 70px;
         font-weight: normal;
@@ -32,11 +41,13 @@ $common-padding: 2% 6%;
 }
 
 body {
-    background-image: url("https://i.imgur.com/ER4ffYl.jpg");
+    // background-image: url("https://i.imgur.com/ER4ffYl.jpg");
+    background-color: #ebebeb;
     background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-position: 50% 50%;
+  background-position: 80% 50%;
+  line-height: 1.5;
   
 }
 
@@ -59,7 +70,7 @@ body {
     position: absolute;
     top: 42%;
     
-    color: $white-color;
+    color: $black-color;
     line-height: 2;
     font-size: 20px;
     @media (min-width: $tablet-breakpoint) {
@@ -77,18 +88,28 @@ body {
 }
 
 main {
-    margin-top: 70px;
+    margin-top: 59px;
 }
 
 .secondaryHeading {
+    background-color: $white-color;
+    color: $black-color2;
     display: flex;
     align-items: center;
-    height: 30px;
+    font-size: 16px;
+    height: 50px;
+    width:90%;
     margin-top: 50px;
-    margin-bottom: 10px;
-    width: 90%;
     text-align: center;
 justify-content: center;
+@media (min-width: $tablet-breakpoint) {
+    font-size: 32px;
+    width: 27%;
+    height: 80px;
+    margin-bottom: 10px;
+
+
+}
     
 }
 
@@ -120,8 +141,8 @@ main {
 }
 
 .section1 {
-  box-shadow: 0px 2px 5px 0px rgba(186,186,186,1);
-  background-color: $grey-color2;
+//   box-shadow: 0px 2px 5px 0px #a9abae;
+  background-color: $white-color;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
@@ -148,8 +169,12 @@ main {
 }
 
 .section3 {
+    width: 100%;
+    background-image: url("https://i.imgur.com/rBRXWUD.jpg");
+    background-size: cover;
     @media (min-width: 992px) {
     display: flex;
+    height: 490px;
     justify-content: center;
     align-items: center;
     .connorCircle {
@@ -159,8 +184,9 @@ main {
 }
 
 .section4 {
-    box-shadow: 0px 2px 5px 0px rgba(186,186,186,1);
-    background-color: $grey-color2;
+    // box-shadow: 0px 2px 5px 0px #a9abae;
+    background-color: $white-color;
+    margin-top: 10px;
     
     padding: 30px 30px;
     h2 {
@@ -174,11 +200,76 @@ main {
       color: $black-color;
       border-radius: 2px;
       @media (min-width: 992px) {
-      width: 90%;
+      width: 87%;
       margin-top: 30px;
       }
      
   }
+
+  .section5 {
+      margin-top: 10px;
+    background-color: $white-color;
+    width: 40%;
+    padding: 30px 30px;
+    text-align: left;
+    h2 {
+        margin-bottom: 10px;
+    }
+
+    p {
+        margin: 0;
+    }
+      width: 90%;
+      color: $black-color;
+      border-radius: 2px;
+      @media (min-width: 992px) {
+      width: 40%;
+      margin-top: 30px;
+      }
+     
+  }
+
+  .section6 {
+    width: 100%;
+    height: 240px;
+    background-image: url("https://i.imgur.com/0Br3Wsq.jpg");
+    background-position: 0 25%;
+    background-size: cover;
+    @media (min-width: 992px) {
+    display: flex;
+    height: 490px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    }
+}
+
+.section7 {
+    width: 100%;
+    height: 240px;
+    background-image: url("https://i.imgur.com/YGBrn6N.jpg");
+    background-position: 0 50%;
+    background-size: cover;
+    @media (min-width: 992px) {
+    display: flex;
+    height: 490px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    }
+}
+
+.section8 {
+    width: 100%;
+    height: 240px;
+    @media (min-width: 992px) {
+    display: flex;
+    height: 490px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    }
+}
 
 .grid {
     display: flex;

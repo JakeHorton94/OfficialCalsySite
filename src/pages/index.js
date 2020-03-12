@@ -44,10 +44,10 @@ const LandingPage = () => (
 
       <Link className="home" to="/home">
          <div className="landingImage">
+           <div className="landingBanner">
            {/* <img className="landingLogo" src="https://i.imgur.com/BgUBT9Q.png" />  */}
            <img className="landingLogo" src="https://i.imgur.com/3xylq8A.png" /> 
-
-           
+           </div>
       </div> 
     </Link>
   </section>

@@ -16,7 +16,7 @@
     flex-direction: row;
     overflow: hidden;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
 //     box-shadow: 0px 2px 5px 0px rgba(186,186,186,1);
 //   background-color: $grey-color;
     width: 100%;
@@ -28,6 +28,8 @@
 }
 
 .servicesCircle {
+    background-color: $white-color;
+    margin: 10px 0;
     img {
         width: 100%;
     }
@@ -36,11 +38,27 @@ width: 100%;
     width: 40%;
 }
 @media (min-width: 992px) {
-    width: 33%;
+    width: 25%;
 }
 }
 
+.servicesHeading {
+    h2{
+    font-size: 60px;
+@media (min-width: $desktop-breakpoint) {
+font-size: 80px;
+}
+    }
+    position: absolute;
+    top: 28%;
+    left: 7%;
+    color: $white-color;
+@media (min-width: $desktop-breakpoint) {
+    top: 60%;
 
+}
+
+}
 
 // .servicesRow {
 //     align-items: center;

@@ -16,11 +16,17 @@
   flex-direction: column;
 }
 
+.landingBanner {
+  opacity: 0;
+  width: 100%;
+  background-color: $grey-color3;
+  animation: logoAnimation 300s;
+  animation-delay: 3s;
+}
+
 .landingLogo {
-  animation: logoAnimation 2s;
   width: 50%;
-  background-color: $grey-color2;
-  border-radius: 5px;
+  
   @media (min-width: 992px) {
     width: 35%;
   }
@@ -48,10 +54,10 @@
   0% {
     opacity: 0;
   }
-
+  
   
 
-  50% {
+  1% {
     opacity: 1;
 
   }

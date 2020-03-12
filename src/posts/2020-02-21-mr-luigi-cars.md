@@ -1,5 +1,5 @@
 ---
-title: BMW 6 Series
+title: BMW 6 SERIES
 date: 2020-02-21T15:42:19.958Z
 thumbnail: >-
   https://i.imgur.com/oNBYldm.jpg

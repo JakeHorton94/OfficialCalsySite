@@ -9,9 +9,10 @@ import { Link } from 'gatsby'
 const ServicesPage = () => (
   <Layout pageInfo={{ pageName: "services" }}>
     <SEO title="Home" keywords={[`gatsby`, `react`, `bootstrap`]} />
-    
-    <div className="phoneHeading2">
-    <h2> Services </h2>
+    <div className="section6">
+        </div>
+    <div className="servicesHeading">
+    <h2> SERVICES. </h2>
     </div>
     
     <div className="servicesGrid">

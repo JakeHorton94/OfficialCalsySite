@@ -27,7 +27,9 @@ const InternalSignagePage = () => {
 
         return (
             <Layout>
+              <div className="section8 internalSignageBanner">
                 <img className="serviceLogo" src="https://i.imgur.com/yhfdnjl.png"></img>
+                </div>
               <div className="section1">
                 <p className="serviceIntro">Interior signs have a wealth of different uses, created in many forms to suit a diverse blend of environments, budgets and purposes. Internal signage is key in showing people who you are, where to go, what you do and more...</p>
                 <p><span className="blueDot">•</span><span className="redDot">•</span><span className="yellowDot">•</span></p>

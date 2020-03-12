@@ -27,7 +27,10 @@ const VehicleWrapsPage = () => {
 
         return (
             <Layout>
+              <div className="section8 vehicleWrapsBanner">
+            
                 <img className="serviceLogo" src="https://i.imgur.com/mxHclKP.png"></img>
+                </div>
               <div className="section1">
                 <p className="serviceIntro">Cards and Leaflets provide a physical example of your brand and are great at leaving a lasting impression.</p>
                 <p><span className="blueDot">•</span><span className="redDot">•</span><span className="yellowDot">•</span></p>

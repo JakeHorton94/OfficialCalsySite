@@ -2,7 +2,7 @@
 
 
 .instagramFeed {
-    width: 90%;
+    width:87%;
     overflow: hidden;
     border: none;
     height: 1100px;
@@ -25,13 +25,17 @@
 .latestWork {
     position: absolute;
     top: 100%;
-    left: 23%;
+    left: 27%;
     color: $white-color;
     font-size: 16px;
     @media (min-width: $tablet-breakpoint) {
         top: 85%;
-        left: 25%;
+        left: 22%;
         font-size: 32px;
+    }
+    @media (min-width: $desktop-breakpoint) {
+      top: 85%;
+        left: 25%;
     }
 }
 
@@ -39,12 +43,17 @@
 #landing-header {
     z-index: 1;
     position: absolute;
-    top: 25%;
-    left: 1%;
+    top: 17%;
+    left: 0%;
     @media (min-width: $tablet-breakpoint) {
-        top: 20%;
-    left: 1%;
+        top: 18%;
+    left: 0;
     }
+    @media (min-width: $desktop-breakpoint) {
+      top: 40%;
+      left: 0;
+    }
+
   }
   
   #landing-header h1 {
@@ -53,49 +62,49 @@
   
   .slideshow { 
     position: absolute;
-    width: 90%;
+    width: 100%;
     height: auto;
-    top: 12%;
-    left: 5%;
+    top: 0;
   /* put bacgkround images behind text	 */
     z-index: 0; 
     list-style: none;
     margin: 0;
     padding: 0;
     @media (min-width: $tablet-breakpoint) {
-        top: 9%;
-      left: 5%;
+        top: 0;
+      
       }
 
       @media (min-width: $desktop-breakpoint) {
-        top: 12%;
-      left: 5%;
+        top: 0;
+      
     }
     
   }
 
   .slideBackground {
       position: absolute;
-      width: 90%;
+      width: 100%;
       height: 300px;
       background-color: rgba(22, 22, 22, 0.8);
-      top: 12%;
-      left: 5%;
+      top: 0;
+      
       @media (min-width: $tablet-breakpoint) {
-        top: 9%;
-      left: 5%;
+        top: 0;
+      
       height: 450px
       }
 
       @media (min-width: $desktop-breakpoint) {
-        top: 12%;
-      left: 5%;
-      height: 450px
+        top: 0;
+     
+      height: 550px
     }
   }
   
   .slideshow li {
   
+    // box-shadow: 0px 3px 4px 0px #a9abae;
 
       position: absolute; 
     width: 100%;
@@ -107,7 +116,7 @@
     z-index: -1;
     animation: imageAnimation 50s linear infinite;
     @media (min-width: $tablet-breakpoint) {
-        height: 450px
+        height: 550px
     } 
 
     
@@ -169,38 +178,40 @@
   }
 
   .buttonContainer {
-    margin-top: 360px;
+    margin-top: 250px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 90%;
+    width: 100%;
     
-    justify-content: space-between;
+    justify-content: space-evenly;
     @media (min-width: $tablet-breakpoint) {
         flex-direction: row;
-    margin-top: 540px;
+    margin-top: 530px;
 
     }
 
     @media (min-width: $desktop-breakpoint) {
-        margin-top: 490px;
+        margin-top: 510px;
     }
   }
 
   .optionButton {
-    border-radius: 5px;
+    // box-shadow: 0px 3px 4px 0px #a9abae;
+
+    border-radius: 1px;
     width: 100%;
     height: 50px;
     border: none;
     margin: 5px 0;
-    background-color: $grey-color;
+    background-color: $white-color;
     font-size: 16px;
     a {
-    color: $dark-grey-color;
+    color: $black-color2;
 text-decoration: none;
     }
     @media (min-width: $tablet-breakpoint) {
-        width: 30%;
+        width: 25%;
         margin: 0;
         font-size: 32px;
     height: 80px;
@@ -209,13 +220,19 @@ text-decoration: none;
     
   }
 
+  .homeHr {
+    color: $black-color2;
+    margin-top: 30px;
+    margin-bottom: 0px;
+  }
+
 
   .secondaryHeading.recentWork {
       margin-top: 30px;
   }
 
   .servicesButton:hover {
-    border: 5px solid $red-color;
+    // border: 3px solid $red-color;
     transition-duration: 0.5s;
       a{
       color: $red-color;
@@ -224,7 +241,7 @@ text-decoration: none;
   }
 
   .aboutButton:hover {
-    border: 5px solid $blue-color;
+    // border: 3px solid $blue-color;
     transition-duration: 0.5s;
     a{
     color: $blue-color;
@@ -234,7 +251,7 @@ transition-duration: 0.5s;
 }
 
 .contactButton:hover {
-    border: 5px solid $yellow-color;
+    // border: 3px solid $yellow-color;
     transition-duration: 0.5s;
     a{
     color: $yellow-color;
