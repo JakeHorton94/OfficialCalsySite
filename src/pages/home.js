@@ -2,11 +2,9 @@ import React from "react"
 import './home.scss'
 import { Link } from "gatsby"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout pageInfo={{ pageName: "index" }}>
-    <SEO title="Home" keywords={[`gatsby`, `react`, `bootstrap`]} />
     <div className="slideBackground"></div>
     <div id="landing-header">
     <img className="bannerCalsy" src="https://i.imgur.com/dlMh926.png" alt="Calsy" /> 
