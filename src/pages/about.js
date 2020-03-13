@@ -59,9 +59,11 @@ const AboutPage = () => (
            
            
 
-            
-            <h2 className="impact">Thinking of making an impact?</h2>
-            <p className="getInTouch"><Link to="/contact">Get in touch!</Link></p>
+            <div className="section4 getInTouch">
+            <h2 className="impact">THINKING OF MAKING AN IMPACT?</h2>
+            <hr></hr>
+            <p ><Link to="/contact">GET IN TOUCH!</Link></p>
+            </div>
 
            
   </Layout>

@@ -2,7 +2,7 @@
 
 
 img {
-    width: 100%;
+    width: 60%;
     @media (min-width: 992px) {
     width: 25%;
     }
@@ -19,10 +19,13 @@ p {
     }
 }
 
-.getInTouch {
-    margin-top: 10px;
-    font-size: 25px;
-    margin-bottom: 60px;
+.section4.getInTouch {
+    margin-bottom: 50px;
+
+    @media (min-width: $tablet-breakpoint) {
+    
+    margin-bottom: 30px;
+    }
 }
 
 hr {

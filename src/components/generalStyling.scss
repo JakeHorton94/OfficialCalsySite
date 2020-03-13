@@ -222,7 +222,7 @@ main {
       width: 90%;
       color: $black-color;
       border-radius: 2px;
-      @media (min-width: 992px) {
+      @media (min-width: $tablet-breakpoint) {
       width: 40%;
       margin-top: 30px;
       }
@@ -353,7 +353,3 @@ main {
     }
 }
 
-.impact {
-    margin-top: 5%;
-    width: 90%;
-}

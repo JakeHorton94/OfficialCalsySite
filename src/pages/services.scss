@@ -28,7 +28,6 @@
 }
 
 .servicesCircle {
-    background-color: $white-color;
     margin: 10px 0;
     img {
         width: 100%;
@@ -36,6 +35,8 @@
 width: 100%;
 @media (min-width: $tablet-breakpoint) {
     width: 40%;
+    background-color: $white-color;
+
 }
 @media (min-width: 992px) {
     width: 25%;
@@ -53,6 +54,9 @@ font-size: 80px;
     top: 28%;
     left: 7%;
     color: $white-color;
+@media (min-width: $tablet-breakpoint) {
+    top: 20%;
+}
 @media (min-width: $desktop-breakpoint) {
     top: 60%;
 
