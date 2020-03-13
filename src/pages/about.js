@@ -2,11 +2,10 @@ import React from "react"
 import './about.scss'
 import { Link } from 'gatsby'
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+
 
 const AboutPage = () => (
   <Layout pageInfo={{ pageName: "services" }}>
-    <SEO title="Home" keywords={[`gatsby`, `react`, `bootstrap`]} />
             
     
     
