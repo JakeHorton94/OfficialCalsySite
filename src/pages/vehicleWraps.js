@@ -1,7 +1,6 @@
 import React from "react"
 import './bespokeStickers.scss'
 import Layout from "../components/layout"
-import SEO from "../components/seo"
 import blogStyles from './blog.module.scss'
 import { Link, graphql, useStaticQuery } from 'gatsby'
 
@@ -29,7 +28,7 @@ const VehicleWrapsPage = () => {
             <Layout>
               <div className="section8 vehicleWrapsBanner">
             
-                <img className="serviceLogo" src="https://i.imgur.com/mxHclKP.png"></img>
+                <img className="serviceLogo" src="https://i.imgur.com/mxHclKP.png" alt="vehicle wraps"></img>
                 </div>
               <div className="section1">
                 <p className="serviceIntro">Cards and Leaflets provide a physical example of your brand and are great at leaving a lasting impression.</p>
@@ -44,10 +43,10 @@ const VehicleWrapsPage = () => {
                     {data.allMarkdownRemark.edges.map((edge) => {
                         return (
                             <li className={blogStyles.post}>
-                            <Link to= {"blog/" + edge.node.fields.slug}>
+                            <Link to= {"blog/" + edge.node.fields.slug} aria-label={"Link to " + edge.node.fields.slug}>
                                 <h2 className="postHeading">{edge.node.frontmatter.title}</h2>
                                 <p className="postDate">{edge.node.frontmatter.date}</p>
-                                <img src={edge.node.frontmatter.thumbnail}/>
+                                <img src={edge.node.frontmatter.thumbnail} alt=""/>
                             </Link>
                             </li>
                         )

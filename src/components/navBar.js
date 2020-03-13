@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import './navbar.scss'
 
-import { Navbar, Nav, Form, FormControl, Button } from "react-bootstrap"
+import { Navbar } from "react-bootstrap"
 
 const CustomNavbar = ({ pageInfo }) => {
   console.log(pageInfo)
@@ -16,7 +16,7 @@ const CustomNavbar = ({ pageInfo }) => {
   <Link to="/home">
     <div className="navLogo">
     
-    <img className="calsyNav" src="https://i.imgur.com/3xylq8A.png" /> 
+    <img className="calsyNav" src="https://i.imgur.com/3xylq8A.png" alt="home" /> 
         </div>
     </Link>
 

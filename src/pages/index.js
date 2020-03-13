@@ -6,23 +6,7 @@ import { Link } from "gatsby"
 
 
 const LandingPage = () => (
-<div>
-{/* <div id="landing-header">
-<Link className="home" to="/home">
-<div className="landing">
-    
-<img className="landingLogo" src="https://i.imgur.com/jIs1B57.png" /> 
-
-<div className="welcome">
-  Welcome
-</div>
-
-</div>
-</Link>
-
-
-    </div> */}
-  
+<div>  
 
     <section className="animated-grid">
       <div className="cardS one"></div>
@@ -45,8 +29,7 @@ const LandingPage = () => (
       <Link className="home" to="/home">
          <div className="landingImage">
            <div className="landingBanner">
-           {/* <img className="landingLogo" src="https://i.imgur.com/BgUBT9Q.png" />  */}
-           <img className="landingLogo" src="https://i.imgur.com/3xylq8A.png" /> 
+           <img className="landingLogo" src="https://i.imgur.com/3xylq8A.png" alt="Calsy"/> 
            </div>
       </div> 
     </Link>

@@ -11,7 +11,7 @@ const Header = ({ siteTitle }) => (
         <Link
           to="/"
         >
-          <img className="headerImg" src="https://i.imgur.com/VCbf2mP.png" /> 
+          <img className="headerImg" src="https://i.imgur.com/VCbf2mP.png" alt=""/> 
         </Link>
 
   </header>

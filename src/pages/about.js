@@ -1,5 +1,4 @@
 import React from "react"
-import { Row, Col, Container, ListGroup } from "react-bootstrap"
 import './about.scss'
 import { Link } from 'gatsby'
 import Layout from "../components/layout"
@@ -12,15 +11,15 @@ const AboutPage = () => (
     
     
   <div className="section3">
-    <img className="connorCircle" src="https://i.imgur.com/A6mi0ho.png"></img>
+    <img className="connorCircle" src="https://i.imgur.com/A6mi0ho.png" alt=""></img>
      <div className="diagram">
        +
      </div>
-    <img className="connorCircle" src="https://i.imgur.com/eAZKak4.png"></img>
+    <img className="connorCircle" src="https://i.imgur.com/eAZKak4.png" alt=""></img>
     <div className="diagram">
        =
      </div>
-    <img className="connorCircle" src="https://i.imgur.com/3BUmDa8.png"></img>
+    <img className="connorCircle" src="https://i.imgur.com/3BUmDa8.png" alt=""></img>
     </div>
 
 
@@ -62,7 +61,7 @@ const AboutPage = () => (
             <div className="section4 getInTouch">
             <h2 className="impact">THINKING OF MAKING AN IMPACT?</h2>
             <hr></hr>
-            <p ><Link to="/contact">GET IN TOUCH!</Link></p>
+            <p ><Link to="/contact" aria-label="Link to contact page">GET IN TOUCH!</Link></p>
             </div>
 
            

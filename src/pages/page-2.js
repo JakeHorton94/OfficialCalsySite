@@ -1,7 +1,6 @@
 import React from "react"
 import './bespokeStickers.scss'
 import Layout from "../components/layout"
-import SEO from "../components/seo"
 import blogStyles from './blog.module.scss'
 import { Link, graphql, useStaticQuery } from 'gatsby'
 
@@ -35,7 +34,7 @@ const ExternalSignagePage = () => {
                             <Link to= {"blog/" + edge.node.fields.slug}>
                                 <h2 className="postHeading">{edge.node.frontmatter.title}</h2>
                                 <p className="postDate">{edge.node.frontmatter.date}</p>
-                                <img src={edge.node.frontmatter.thumbnail}/>
+                                <img src={edge.node.frontmatter.thumbnail} alt=""/>
                             </Link>
                             </li>
                         )

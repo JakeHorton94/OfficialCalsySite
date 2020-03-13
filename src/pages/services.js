@@ -1,14 +1,11 @@
 import React from "react"
-import { Row, Col, Container, ListGroup } from "react-bootstrap"
 import './services.scss'
 import Layout from "../components/layout"
-import SEO from "../components/seo"
 import { Link } from 'gatsby'
 
 
 const ServicesPage = () => (
   <Layout pageInfo={{ pageName: "services" }}>
-    <SEO title="Home" keywords={[`gatsby`, `react`, `bootstrap`]} />
     <div className="section6">
         </div>
     <div className="servicesHeading">
@@ -17,89 +14,89 @@ const ServicesPage = () => (
     
     <div className="servicesGrid">
         <div className="servicesCircle">
-            <Link to="/vehicleGraphics">
-            <img src="https://i.imgur.com/4Qarum6.png"></img>
+            <Link to="/vehicleGraphics" aria-label="Link to vehicle graphics page">
+            <img src="https://i.imgur.com/4Qarum6.png" alt=""></img>
             </Link>
         </div>
         <div className="servicesCircle">
-            <Link to="/vehicleWraps">
-            <img src="https://i.imgur.com/mxHclKP.png"></img>
+            <Link to="/vehicleWraps" aria-label="Link to vehicle wraps page">
+            <img src="https://i.imgur.com/mxHclKP.png" alt=""></img>
 
             </Link>
         </div>
-        <div className="servicesCircle">
-            <Link to="/fleetWork">
-            <img src="https://i.imgur.com/YbotLYu.png"></img>
+        <div className="servicesCircle" >
+            <Link to="/fleetWork" aria-label="Link to fleet work page">
+            <img src="https://i.imgur.com/YbotLYu.png" alt=""></img>
             </Link>
         </div>
         <div className="servicesCircle">
-            <Link to="/internalSignage">
-            <img src="https://i.imgur.com/yhfdnjl.png"></img>
+            <Link to="/internalSignage" aria-label="Link to interal signage page">
+            <img src="https://i.imgur.com/yhfdnjl.png" alt=""></img>
             </Link>
         </div>
         <div className="servicesCircle">
             <Link to="/externalSignage">
-            <img src="https://i.imgur.com/LlkPaz7.png"></img>
+            <img src="https://i.imgur.com/LlkPaz7.png" alt=""></img>
             </Link>
         </div>
         <div className="servicesCircle">
-            <Link to="/advertisingBanners">
-            <img src="https://i.imgur.com/So48JIk.png"></img>
+            <Link to="/advertisingBanners" aria-label="Link to advertising banners page">
+            <img src="https://i.imgur.com/So48JIk.png" alt=""></img>
 
             </Link>
         </div>
         <div className="servicesCircle">
-            <Link to="/clothingBranding">
-            <img src="https://i.imgur.com/SrR5hW3.png"></img>
+            <Link to="/clothingBranding" aria-label="Link to clothing branding page">
+            <img src="https://i.imgur.com/SrR5hW3.png" alt=""></img>
             </Link>
         </div>
         <div className="servicesCircle">
-            <Link to="/bespokeStickers">
-            <img src="https://i.imgur.com/fT3Izbq.png"></img>
+            <Link to="/bespokeStickers" aria-label="Link to bespoke stickers page">
+            <img src="https://i.imgur.com/fT3Izbq.png" alt=""></img>
 
             </Link>
         </div>
         <div className="servicesCircle">
-            <Link to="/cardsAndLeaflets">
-            <img src="https://i.imgur.com/BxbfoOf.png"></img>
+            <Link to="/cardsAndLeaflets" aria-label="Link to cards and leaflets page">
+            <img src="https://i.imgur.com/BxbfoOf.png" alt=""></img>
 
             </Link>
         </div>
         <div className="servicesCircle">
-            <Link to="/siteSafety">
-            <img src="https://i.imgur.com/we6KtOx.png"></img>
+            <Link to="/siteSafety" aria-label="Link to site safety page">
+            <img src="https://i.imgur.com/we6KtOx.png" alt=""></img>
 
             </Link>
         </div>
         <div className="servicesCircle">
-            <Link to="/wayfinding">
-            <img src="https://i.imgur.com/tRlyUy8.png"></img>
+            <Link to="/wayfinding" aria-label="Link to wayfinding page">
+            <img src="https://i.imgur.com/tRlyUy8.png" alt=""></img>
 
             </Link>
         </div>
         <div className="servicesCircle">
-            <Link to="/subcontractor">
-            <img src="https://i.imgur.com/6AxvDwB.png"></img>
+            <Link to="/subcontractor" aria-label="Link to subcontractor page">
+            <img src="https://i.imgur.com/6AxvDwB.png" alt=""></img>
             </Link>
         </div>
         <div className="servicesCircle">
-            <Link to="/customWork">
-            <img src="https://i.imgur.com/wYlLtbw.png"></img>
+            <Link to="/customWork" aria-label="Link to custom work page">
+            <img src="https://i.imgur.com/wYlLtbw.png" alt=""></img>
             </Link>
         </div>
         <div className="servicesCircle">
-            <Link to="/glassManifestation">
-            <img src="https://i.imgur.com/WxdCkEP.png"></img>
+            <Link to="/glassManifestation" aria-label="Link to glass manifestation page">
+            <img src="https://i.imgur.com/WxdCkEP.png" alt=""></img>
             </Link>
         </div>
         <div className="servicesCircle">
-            <Link to="/siteHoarding">
-            <img src="https://i.imgur.com/RvPYWVw.png"></img>
+            <Link to="/siteHoarding" aria-label="Link to site hoarding page">
+            <img src="https://i.imgur.com/RvPYWVw.png" alt=""></img>
             </Link>
         </div>
         <div className="servicesCircle">
-            <Link to="/swingAndPavementSigns">
-            <img src="https://i.imgur.com/DWdyQCi.png"></img>
+            <Link to="/swingAndPavementSigns" aria-label="Link to swings and pavement signs page">
+            <img src="https://i.imgur.com/DWdyQCi.png" alt=""></img>
             </Link>
         </div>
     </div>

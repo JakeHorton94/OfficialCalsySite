@@ -1,15 +1,12 @@
 import React from "react"
-import { Row, Col, Container, ListGroup } from "react-bootstrap"
 import './contact.scss'
 import Layout from "../components/layout"
-import SEO from "../components/seo"
 
 
 
 console.log("@@@@@@@@@@@@@@@@@@@@@@@" + process.env.GATSBY_API_KEY)
 const ContactPage = () => (
   <Layout pageInfo={{ pageName: "services" }}>
-    <SEO title="Home" keywords={[`gatsby`, `react`, `bootstrap`]} />
 
 <div className="section7"></div>
 
@@ -44,7 +41,7 @@ const ContactPage = () => (
             </div>
 
 
-<iframe src="https://www.google.com/maps/embed/v1/place?q=CM20%202ST&key=AIzaSyAdS8xLrNNxApCs4wziu_i_quFx1hHfu4g" allowfullscreen></iframe>
+<iframe title="google maps" src="https://www.google.com/maps/embed/v1/place?q=CM20%202ST&key=AIzaSyAdS8xLrNNxApCs4wziu_i_quFx1hHfu4g" allowfullscreen></iframe>
 
 
 

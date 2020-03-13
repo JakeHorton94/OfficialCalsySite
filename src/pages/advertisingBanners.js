@@ -2,7 +2,6 @@ import React from "react"
 import './advertisingBanners.scss'
 import './vehicleGraphics.scss'
 import Layout from "../components/layout"
-import SEO from "../components/seo"
 import blogStyles from './blog.module.scss'
 import { Link, graphql, useStaticQuery } from 'gatsby'
 
@@ -28,7 +27,7 @@ const AdvertisingBannersPage = () => {
 
         return (
             <Layout>
-                <img className="serviceLogo" src="https://i.imgur.com/So48JIk.png"></img>
+                <img className="serviceLogo" src="https://i.imgur.com/So48JIk.png" alt="advertising banners"></img>
               <div className="section1">
                 <p className="serviceIntro">Banners are a great way of advertising your brand on any medium.</p>
                 <p><span className="blueDot">•</span><span className="redDot">•</span><span className="yellowDot">•</span></p>
@@ -42,10 +41,10 @@ const AdvertisingBannersPage = () => {
                     {data.allMarkdownRemark.edges.map((edge) => {
                         return (
                             <li className={blogStyles.post}>
-                            <Link to= {"blog/" + edge.node.fields.slug}>
+                            <Link to= {"blog/" + edge.node.fields.slug} aria-label={"Link to " + edge.node.fields.slug}>
                                 <h2 className="postHeading">{edge.node.frontmatter.title}</h2>
                                 <p className="postDate">{edge.node.frontmatter.date}</p>
-                                <img src={edge.node.frontmatter.thumbnail}/>
+                                <img src={edge.node.frontmatter.thumbnail} alt=""/>
                             </Link>
                             </li>
                         )
