@@ -4,6 +4,7 @@ import './vehicleGraphics.scss'
 import Layout from "../components/layout"
 import blogStyles from './blog.module.scss'
 import { Link, graphql, useStaticQuery } from 'gatsby'
+import { Helmet } from 'react-helmet'
 
 
 const AdvertisingBannersPage = () => {
@@ -27,6 +28,9 @@ const AdvertisingBannersPage = () => {
 
         return (
             <Layout>
+              <Helmet>
+      <title>Advertising Banners</title>
+    </Helmet>
                 <img className="serviceLogo" src="https://i.imgur.com/So48JIk.png" alt="advertising banners"></img>
               <div className="section1">
                 <p className="serviceIntro">Banners are a great way of advertising your brand on any medium.</p>

@@ -3,6 +3,7 @@ import './vehicleGraphics.scss'
 import Layout from "../components/layout"
 import blogStyles from './blog.module.scss'
 import { Link, graphql, useStaticQuery } from 'gatsby'
+import { Helmet } from 'react-helmet'
 
 
 const VehicleGraphicsPage = () => {
@@ -26,6 +27,9 @@ const VehicleGraphicsPage = () => {
 
         return (
             <Layout>
+              <Helmet>
+      <title>Vehicle Graphics</title>
+    </Helmet>
               <div className="section8 vehicleGraphicsBanner">
               <img className="serviceLogo" src="https://i.imgur.com/4Qarum6.png" alt="vehicle graphics"></img>
               </div>
@@ -55,7 +59,6 @@ const VehicleGraphicsPage = () => {
                             <li className={blogStyles.post}>
                             <Link to= {"blog/" + edge.node.fields.slug} aria-label={"Link to " + edge.node.fields.slug}>
                                 <h2 className="postHeading">{edge.node.frontmatter.title}</h2>
-                                {/* <p className="postDate">{edge.node.frontmatter.date}</p> */}
                                 <img src={edge.node.frontmatter.thumbnail} alt=""/>
                             </Link>
                             </li>

@@ -3,6 +3,7 @@ import './bespokeStickers.scss'
 import Layout from "../components/layout"
 import blogStyles from './blog.module.scss'
 import { Link, graphql, useStaticQuery } from 'gatsby'
+import { Helmet } from 'react-helmet'
 
 
 const VehicleWrapsPage = () => {
@@ -26,6 +27,9 @@ const VehicleWrapsPage = () => {
 
         return (
             <Layout>
+              <Helmet>
+      <title>Vehicle Wraps</title>
+    </Helmet>
               <div className="section8 vehicleWrapsBanner">
             
                 <img className="serviceLogo" src="https://i.imgur.com/mxHclKP.png" alt="vehicle wraps"></img>

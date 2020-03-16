@@ -1,12 +1,17 @@
 import React from "react"
 import './about.scss'
 import { Link } from 'gatsby'
+import { Helmet } from "react-helmet"
+
+
 import Layout from "../components/layout"
 
 
 const AboutPage = () => (
   <Layout pageInfo={{ pageName: "services" }}>
-            
+            <Helmet>
+      <title>About</title>
+    </Helmet>
     
     
   <div className="section3">

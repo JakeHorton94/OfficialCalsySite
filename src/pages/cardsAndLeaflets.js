@@ -4,6 +4,7 @@ import './vehicleGraphics.scss'
 import Layout from "../components/layout"
 import blogStyles from './blog.module.scss'
 import { Link, graphql, useStaticQuery } from 'gatsby'
+import { Helmet } from 'react-helmet'
 
 
 const CardsAndLeafletsPage = () => {
@@ -27,6 +28,9 @@ const CardsAndLeafletsPage = () => {
 
         return (
             <Layout>
+              <Helmet>
+      <title>Cards and Leaflets</title>
+    </Helmet>
                <img className="serviceLogo" src="https://i.imgur.com/BxbfoOf.png" alt="cards and leaflets"></img>
               <div className="section1">
                 <p className="serviceIntro">Cards and Leaflets provide a physical example of your brand and are great at leaving a lasting impression.</p>

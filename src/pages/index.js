@@ -2,11 +2,15 @@ import React from "react"
 import '../components/generalStyling.scss';
 import './landing.scss';
 import { Link } from "gatsby"
+import { Helmet } from 'react-helmet'
 
 
 
 const LandingPage = () => (
 <div>  
+<Helmet>
+      <title>Landing Page</title>
+    </Helmet>
 
     <section className="animated-grid">
       <div className="cardS one"></div>
@@ -26,7 +30,7 @@ const LandingPage = () => (
       <div className="cardS fifteen"></div>
       <div className="cardS sixteen"></div>
 
-      <Link className="home" to="/home">
+      <Link aria-label="home" className="home" to="/home">
          <div className="landingImage">
            <div className="landingBanner">
            <img className="landingLogo" src="https://i.imgur.com/3xylq8A.png" alt="Calsy"/> 

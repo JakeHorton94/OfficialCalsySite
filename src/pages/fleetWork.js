@@ -3,6 +3,7 @@ import './vehicleGraphics.scss'
 import Layout from "../components/layout"
 import blogStyles from './blog.module.scss'
 import { Link, graphql, useStaticQuery } from 'gatsby'
+import { Helmet } from 'react-helmet'
 
 
 const FleetWorkPage = () => {
@@ -26,6 +27,9 @@ const FleetWorkPage = () => {
 
         return (
             <Layout>
+              <Helmet>
+      <title>Fleet Work</title>
+    </Helmet>
               <div className="section8 fleetWorkBanner">
 
               <img className="serviceLogo" src="https://i.imgur.com/YbotLYu.png" alt="fleet work"></img>

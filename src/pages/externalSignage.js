@@ -3,6 +3,7 @@ import './vehicleGraphics.scss'
 import Layout from "../components/layout"
 import blogStyles from './blog.module.scss'
 import { Link, graphql, useStaticQuery } from 'gatsby'
+import { Helmet } from 'react-helmet'
 
 
 const ExternalSignagePage = () => {
@@ -26,6 +27,9 @@ const ExternalSignagePage = () => {
 
         return (
             <Layout>
+              <Helmet>
+      <title>External Signage</title>
+    </Helmet>
                 <img className="serviceLogo" src="https://i.imgur.com/LlkPaz7.png" alt="external signage"></img>
               <div className="section1">
                 <p className="serviceIntro">External signs have a wealth of different uses, created in many forms to suit a diverse blend of environments, budgets and purposes. Internal signage is key in showing people who you are, where to go, what you do and more...</p>

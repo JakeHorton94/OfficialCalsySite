@@ -3,6 +3,7 @@ import './vehicleGraphics.scss'
 import Layout from "../components/layout"
 import blogStyles from './blog.module.scss'
 import { Link, graphql, useStaticQuery } from 'gatsby'
+import { Helmet } from 'react-helmet'
 
 
 const InternalSignagePage = () => {
@@ -26,6 +27,9 @@ const InternalSignagePage = () => {
 
         return (
             <Layout>
+              <Helmet>
+      <title>Internal Signage</title>
+    </Helmet>
               <div className="section8 internalSignageBanner">
                 <img className="serviceLogo" src="https://i.imgur.com/yhfdnjl.png" alt="internal signage"></img>
                 </div>

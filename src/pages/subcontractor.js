@@ -3,6 +3,7 @@ import './bespokeStickers.scss'
 import Layout from "../components/layout"
 import blogStyles from './blog.module.scss'
 import { Link, graphql, useStaticQuery } from 'gatsby'
+import { Helmet } from 'react-helmet'
 
 
 const SubcontractorPage = () => {
@@ -26,6 +27,9 @@ const SubcontractorPage = () => {
 
         return (
             <Layout>
+              <Helmet>
+      <title>subcontractor</title>
+    </Helmet>
                 <img className="serviceLogo" src="https://i.imgur.com/6AxvDwB.png" alt="subcontractor"></img>
               <div className="section1">
                 <p className="serviceIntro">Cards and Leaflets provide a physical example of your brand and are great at leaving a lasting impression.</p>

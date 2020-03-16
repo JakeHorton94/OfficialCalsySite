@@ -4,6 +4,7 @@ import './vehicleGraphics.scss'
 import Layout from "../components/layout"
 import blogStyles from './blog.module.scss'
 import { Link, graphql, useStaticQuery } from 'gatsby'
+import { Helmet } from 'react-helmet'
 
 
 const BespokeStickersPage = () => {
@@ -27,6 +28,9 @@ const BespokeStickersPage = () => {
 
         return (
             <Layout>
+              <Helmet>
+      <title>Bespoke Stickers</title>
+    </Helmet>
                <img className="serviceLogo" src="https://i.imgur.com/fT3Izbq.png" alt="bespoke stickers"></img>
               <div className="section1">
                 <p className="serviceIntro">Custom stickers are a great way of advertising when and where you want to.</p>

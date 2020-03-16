@@ -1,12 +1,16 @@
 import React from "react"
 import './contact.scss'
 import Layout from "../components/layout"
+import { Helmet } from 'react-helmet'
 
 
 
 console.log("@@@@@@@@@@@@@@@@@@@@@@@" + process.env.GATSBY_API_KEY)
 const ContactPage = () => (
   <Layout pageInfo={{ pageName: "services" }}>
+    <Helmet>
+      <title>Contact</title>
+    </Helmet>
 
 <div className="section7"></div>
 

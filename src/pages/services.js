@@ -2,10 +2,14 @@ import React from "react"
 import './services.scss'
 import Layout from "../components/layout"
 import { Link } from 'gatsby'
+import { Helmet } from 'react-helmet'
 
 
 const ServicesPage = () => (
   <Layout pageInfo={{ pageName: "services" }}>
+      <Helmet>
+      <title>Services</title>
+    </Helmet>
     <div className="section6">
         </div>
     <div className="servicesHeading">

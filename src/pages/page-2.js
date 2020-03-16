@@ -3,6 +3,7 @@ import './bespokeStickers.scss'
 import Layout from "../components/layout"
 import blogStyles from './blog.module.scss'
 import { Link, graphql, useStaticQuery } from 'gatsby'
+import { Helmet } from 'react-helmet'
 
 
 const ExternalSignagePage = () => {
@@ -26,6 +27,9 @@ const ExternalSignagePage = () => {
 
         return (
             <Layout>
+              <Helmet>
+      <title>Page 2</title>
+    </Helmet>
                 <h1> External Signage </h1>
                 <ol className={blogStyles.posts}>
                     {data.allMarkdownRemark.edges.map((edge) => {
